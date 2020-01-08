@@ -470,5 +470,8 @@ namespace Microsoft.CodeAnalysis.Internal.Log
 
         DiagnosticAnalyzerService_GetDiagnosticsForSpanAsync,
         CodeFixes_GetCodeFixesAsync,
+
+        LanguageServer_ActivateFailed,
+        LanguageServer_OnLoadedFailed,
     }
 }
